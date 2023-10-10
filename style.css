@@ -1,0 +1,48 @@
+body {
+    background: #362a29d0;
+    font: normal 12px Arial;
+    text-align: center;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: gray;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.255);
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 4px;
+    width: 190px;
+    margin: auto;
+}
+
+input#ano {
+    background-color: rgb(90, 90, 90);
+    color: white;
+}
+
+div {
+    font-size: 20px;
+}
+img {     
+        width: 400px;
+        padding: 15px;
+        border-radius: 30px;
+        transition: transform .3s;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
